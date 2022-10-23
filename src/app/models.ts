@@ -1,4 +1,5 @@
 export interface Game {
+    id: string;
     background_image: string;
     name: string;
     released: string;
@@ -23,9 +24,9 @@ interface Genre {
 }
 
 interface ParentPlatform {
-    platform:{
-        name:string,
-        slug:string;
+    platform: {
+        name: string,
+        slug: string;
     };
 }
 
@@ -33,18 +34,18 @@ interface Publishers {
     name: string;
 }
 
-interface Rating{
-    id:number;
-    count:number;
-    title:string;
+interface Rating {
+    id: number;
+    count: number;
+    title: string;
 }
 
-interface Screenshots{
-    image:string;
+interface Screenshots {
+    image: string;
 }
 
 interface Trailer {
-    data:{
-        max:string;
+    data: {
+        max: string;
     }
 }
