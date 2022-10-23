@@ -8,7 +8,7 @@ import { Game } from 'src/app/models';
 })
 export class GameTabsComponent implements OnInit {
   @Input() game!: Game;
-  
+
   constructor() { }
 
   ngOnInit(): void {
